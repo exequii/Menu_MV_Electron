@@ -1,0 +1,167 @@
+{
+  "BancosBanelco": [
+    { "vistaLista": "BBVA", "txt": "bbva" },
+    { "vistaLista": "CITI", "txt": "citi" },
+    { "vistaLista": "HSBC", "txt": "hsbc" },
+    { "vistaLista": "PATAGONIA", "txt": "patagonia" },
+    { "vistaLista": "GALICIA", "txt": "galicia" },
+    { "vistaLista": "MACRO", "txt": "macro" },
+    { "vistaLista": "SUPERVIELLE", "txt": "supervielle" },
+    { "vistaLista": "COMPANIA FINANCIERA", "txt": "compfinan" },
+    { "vistaLista": "COMAFI", "txt": "comafi" },
+    { "vistaLista": "CREDILOGROS", "txt": "credilogros" },
+    { "vistaLista": "ICBC", "txt": "icbc" },
+    { "vistaLista": "ITAU", "txt": "itau" },
+    { "vistaLista": "SANTANDER", "txt": "rio" },
+    { "vistaLista": "TUCUMAN", "txt": "tucuman" },
+    { "vistaLista": "DEL SOL", "txt": "solb" }
+  ],
+  "BancosLink": [
+    {
+      "vistaLista": "NACION",
+      "txt": "nacion",
+      "acoomname": "8nA+Kn1L*oO11",
+      "port": "10011"
+    },
+    {
+      "vistaLista": "BCO PROVINCIA",
+      "txt": "provincia",
+      "acoomname": "R3dl1nk*0014",
+      "port": "10014"
+    },
+    {
+      "vistaLista": "CORDOBA",
+      "txt": "cordoba",
+      "acoomname": "r3dL1nK*Bco0020",
+      "port": "10020"
+    },
+    {
+      "vistaLista": "SANT DEL ESTERO",
+      "txt": "santDelEstero",
+      "acoomname": "r3d+L1nK*0321",
+      "port": "10321"
+    },
+    {
+      "vistaLista": "STA FE",
+      "txt": "santaFe",
+      "acoomname": "KinL*5Ta.7e-0071",
+      "port": "10071"
+    },
+    {
+      "vistaLista": "HIPOTECARIO",
+      "txt": "hipotecario",
+      "acoomname": "H1poT-A7m+044",
+      "port": "10044"
+    },
+    {
+      "vistaLista": "CORRIENTES",
+      "txt": "corrientes",
+      "acoomname": "Co44i3N7e5-094",
+      "port": "10094"
+    },
+    {
+      "vistaLista": "MAS VENTAS",
+      "txt": "masVentas",
+      "acoomname": "+V74s**Der0903",
+      "port": "10903"
+    },
+    {
+      "vistaLista": "COMP FINANCIERA",
+      "txt": "compFinanciera",
+      "acoomname": "R3d.L1nk*0448",
+      "port": "10448"
+    },
+    {
+      "vistaLista": "PROV. NEUQUEN",
+      "txt": "provNeuquen",
+      "acoomname": "R3d.L1nk+0097",
+      "port": "10097"
+    },
+    {
+      "vistaLista": "SAN JUAN",
+      "txt": "sanJuan",
+      "acoomname": "R3d.L1Nk*045",
+      "port": "10045"
+    },
+    {
+      "vistaLista": "SANTA CRUZ",
+      "txt": "santacruz",
+      "acoomname": "S4nt4*Cr+L1nk0086",
+      "port": "10086"
+    },
+    {
+      "vistaLista": "FORMOSA",
+      "txt": "formosa",
+      "acoomname": "F0rwo54*&0315",
+      "port": "10315"
+    },
+    {
+      "vistaLista": "BERSA",
+      "txt": "bersa",
+      "acoomname": "R3D-L1nk*386",
+      "port": "10386"
+    },
+    {
+      "vistaLista": "COINAG",
+      "txt": "coinag",
+      "acoomname": "Co1Na6-0431",
+      "port": "10431"
+    },
+    {
+      "vistaLista": "CHACO",
+      "txt": "chaco",
+      "acoomname": "R3d-7ink*0311",
+      "port": "10311"
+    },
+    {
+      "vistaLista": "BICA S.A",
+      "txt": "bica",
+      "acoomname": "B1c4_00426",
+      "port": "10426"
+    },
+    {
+      "vistaLista": "CORRIENTES",
+      "txt": "corrientes",
+      "acoomname": "Co44i3N7e5-094",
+      "port": "10094"
+    },
+    {
+      "vistaLista": "LA RIOJA",
+      "txt": "laRioja",
+      "acoomname": "7AR10j4-+0309",
+      "port": "10309"
+    },
+    {
+      "vistaLista": "MUNICIPAL DE ROSARIO",
+      "txt": "munRosario",
+      "acoomname": "kN1l*Mp4l.0065.ro5",
+      "port": "10065"
+    }
+  ],
+  "Modelos": [
+    { "vistaLista": "NCR", "txt": "ncr" },
+    { "vistaLista": "Wincor", "txt": "wincor" },
+    { "vistaLista": "Diebold", "txt": "diebold" },
+    { "vistaLista": "Hyosung", "txt": "hyosung" },
+    { "vistaLista": "GRG", "txt": "grg" },
+    { "vistaLista": "Diebold-Nixdorf", "txt": "dn" }
+  ],
+  "Dn": [
+    { "vistaLista": "DN200A", "txt": "dn200a" },
+    { "vistaLista": "DN200V", "txt": "dn200v" }
+  ],
+  "SubModelos": {
+    "Dn": [
+      { "vistaLista": "DN200A", "txt": "dn200a" },
+      { "vistaLista": "DN200V", "txt": "dn200v" }
+    ],
+    "Grg": [
+      { "vistaLista": "H22", "txt": "h22" },
+      { "vistaLista": "H68", "txt": "h68" }
+    ]
+  },
+
+  "Modelos_Biom_ok": ["ncr", "grg", "hyosung"],
+
+  "Configuracion_modulos": [{ "value": "NO" }]
+}

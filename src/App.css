@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:wght@700&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.resumen {
+  font-family: "Nunito", sans-serif !important;
+}
+
+.App {
+  text-align: center;
+  background-color: #686362;
+}
+
+.position {
+  position: relative;
+  top: 50px;
+}
+
+.negrita {
+  font-weight: bold !important;
+}
+
+.text-aligned {
+  text-align: center !important;
+}
+
+.title {
+  font-size: 2em !important;
+}
+
+.grey {
+  background-color: #f0f0f0;
+  height: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.wrap {
+  flex-direction: wrap !important;
+}
+
+.m-1 {
+  margin: 15px;
+}
+
+main {
+  min-height: 1000px;
+}
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.fondo {
+  box-shadow: 1px 1px 10px 1px rgb(39, 39, 39);
+  border-radius: 20px;
+  height: 599px;
+}
+
+.margen-top-personalizado {
+  margin-top: 33px;
+}
+
+.margen-bot-personalizado {
+  margin-bottom: 33px;
+}
+
+.margen-right-personalizado {
+  margin-right: 0px;
+}
+
+.no-mostrar {
+  display: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#configuracion {
+  width: 52%;
+  height: 90%;
+}
+
+#resumen {
+  width: 42%;
+  border: 1px solid #c5c5c5;
+  border-radius: 10px;
+  height: 90%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.download {
+  margin: 0 !important;
+  text-decoration: none !important;
+  padding: 0 !important;
+}
+
+.download:hover {
+  text-decoration: none !important;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.width-fijo {
+  width: 30%;
+}
+
+.error {
+  color: #c23737;
+  font-style: italic;
+  font-size: 0.7em;
+  visibility: hidden;
+}
+.ip-mascara-gateway {
+  font-size: 0.9em;
+}
+
+/********************************** INPUT's IP ************************************/
+
+.lightMode {
+  color: #ffffff !important;
+}
+
+.darkMode {
+  color: #000000 !important;
+}
+
+.contenedor-ip p {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  height: 20%;
+}
+
+.input-ip {
+  width: 95% !important;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #686362;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  font-size: 0.9em !important;
+  color: #000000;
+}
+
+.input-ip-dark {
+  width: 95% !important;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(44, 44, 44);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  font-size: 0.9em !important;
+  background-color: #363636;
+  color: #ffffff;
+}
+
+.input-ip::placeholder {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+}
+.input-ip-dark::placeholder {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  color: #c5c5c5;
+}
+
+.input-ip:focus,
+.input-ip-dark:focus {
+  border: none !important;
+  outline: 2px solid #43a047 !important;
+}
+
+.der {
+  margin-right: 15px;
+}
+
+.izq {
+  margin-left: 15px;
+}
+
+.swal-fire-dark-content{
+  background-color: #363636 !important;
+  border: 2px solid white !important;
+}
+
+.swal-fire-dark-text{
+  color: white !important;
+}
+
+@media (max-width: 600px) {
+}

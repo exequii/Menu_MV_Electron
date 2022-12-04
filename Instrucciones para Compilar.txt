@@ -1,0 +1,15 @@
+************* INSTRUCCIONES PARA HACER EL PAQUETE DISTRIBUIBLE DE LA APLICACION ******************
+
+- En el archivo electron.js se debe comentar la importacion del "isDev", y comentar adicionalmente el if en donde lo utiliza. Dejando solo la Url join.path
+
+- Comentar el If isDev para las DevTools.
+
+- Descomentar el SetFullScreen.
+
+- Debemos hacer un npm run build como si de una aplicacion de electron se tratara.
+
+- Luego, al archivo index.html generado dentro de la carpeta build, debemos buscar las 4 lineas de codigo que 
+importan archivos (2 link y 2 scripts) y agregarles un . delante de la ruta del src.
+Quedaria src="./blablabla..."
+
+- En consola, debemos correr el comando electron-packager . MenuInstaladorNCR --platform=win32 --arch=x64 --icon=assets/Icono_NCR.ico
